@@ -95,12 +95,6 @@ function Cart() {
         {data.map((item)=>(
 
             <div class="container mx-auto px-4 py-8">
-    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
-        <h1 class="text-2xl font-bold my-4">Shopping Cart</h1>
-        <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
-      Checkout
-    </button>
-    </div>
     <div class="mt-8">
         <div class="flex flex-col md:flex-row border-b border-gray-400 py-4">
             <div class="flex-shrink-0">
